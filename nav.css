@@ -48,5 +48,44 @@ a{
 a:hover{
 	background-color: rgba(192,192,192,0.2);;
 }
+/*Below are styles for the trips.html page*/
+body{
+	color: white;
+}
+#wrapper{
+	margin: 0 auto 0 auto;
+	padding: 5%;
+}
 
+#card{
+	background-color: rgba(211,211,211,0.3);
+	display: inline-block;
+	border: solid 1px lightblue;
+	width: 20%;
+	margin-right: 2%;
+	margin-bottom: 4%;
+}
+
+.section1 > header{
+	border: dotted 1px #ccc;
+	text-align: center;
+}
+
+.image{
+	margin: 5% auto 0 auto;
+
+}
+p{
+	padding: 2%;
+	text-align: justify;
+}
+h4.avail{
+	background-color: gray;
+	color: yellow;
+	padding: 2%;
+}
+
+li{
+	list-style-type: none;
+}
 
