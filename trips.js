@@ -59,6 +59,8 @@ var docFrag = document.createDocumentFragment();
 //create an article element that will act as a card for each trip object
 //Document.createElement() then insert into docFrag.appendChild(article);
 
+
+//would like to put below logic in a function
 for (var i = 0; i < trips.length; i++){
 
 	for(var trip in trips){
