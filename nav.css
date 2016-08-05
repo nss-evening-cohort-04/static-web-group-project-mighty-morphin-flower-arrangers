@@ -48,17 +48,19 @@ a{
 a:hover{
 	background-color: rgba(192,192,192,0.2);;
 }
+
 /*Below are styles for the trips.html page*/
 body{
 	color: white;
 }
 #wrapper{
-	margin: 0 auto 0 auto;
+	margin-left: 10%;
 	padding: 5%;
 }
 
 #card{
-	background-color: rgba(211,211,211,0.3);
+	color:white;
+	background-color: rgba(211,211,211,0.4);
 	display: inline-block;
 	border: solid 1px lightblue;
 	width: 20%;
@@ -72,7 +74,9 @@ body{
 }
 
 .image{
-	margin: 5% auto 0 auto;
+	margin-left: 24%;
+	height: 150px;
+	width: 150px;
 
 }
 p{
@@ -87,5 +91,20 @@ h4.avail{
 
 li{
 	list-style-type: none;
+}
+
+input[type="date"]{
+	text-align: center;
+	margin-left: 25%;
+	margin-bottom: 10px;
+}
+div.section2{
+	text-align: center;
+	margin-left: 35%;
+
+}
+button{
+	margin-left: 35%;
+	margin-bottom: 15px;
 }
 
