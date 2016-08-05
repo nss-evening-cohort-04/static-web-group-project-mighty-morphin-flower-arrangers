@@ -1,0 +1,62 @@
+.inside-award-text {
+
+}
+
+.dont-use-body {
+  max-width: 960px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.awards {
+  display: inline-block;
+  width: 100%;
+  border: blue solid 1px;
+  height: 30%;
+  margin-top: 1%;
+}
+
+.awards-header {
+  font-size: 1.5em;
+  float: right;
+  margin: 0;
+  margin-right: 45%;
+  padding: 0;
+  line-height: .6em;
+}
+
+.awards img {
+  height: 20%;
+  width: 25%;
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 0;
+  margin-left: 1%;
+}
+
+.first-award p {
+
+  border: red solid 1px;
+  width: 70%;
+  float: right;
+  font-size: 1.1em;
+  margin-top: 3%;
+
+}
+
+.second-award p {
+  border: red solid 1px;
+  width: 70%;
+  float: right;
+  font-size: 1.1em;
+  margin-top: 3%;
+}
+
+.third-award p {
+  border: red solid 1px;
+  width: 70%;
+  float: right;
+  font-size: 1.1em;
+  margin-top: 3%;
+}
