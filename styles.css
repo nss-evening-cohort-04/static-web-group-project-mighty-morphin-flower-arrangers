@@ -95,7 +95,7 @@
     text-align: center;
 }
 
-p {
+.h_p {
     margin: .2em 0;
 }
 
@@ -114,7 +114,7 @@ p {
   }
 }
 
-div {
+.h_div {
   animation-duration: 1s;
   animation-name: bounceIn;
 }
