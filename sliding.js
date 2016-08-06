@@ -24,7 +24,7 @@ var alicia = document.getElementById("alicia");
 
 
 function slideFunction() {
-  var firstFunctionVar = setTimeout(firstFunction, 1000);
+  var firstFunctionVar = setTimeout(firstFunction, 250);
   var secondFunctionVar = setTimeout(secondFunction, 6000);
   var thirdFunctionVar = setTimeout(thirdFunction, 12000);
   var fourthFunctionVar = setTimeout(fourthFunction, 16000);
