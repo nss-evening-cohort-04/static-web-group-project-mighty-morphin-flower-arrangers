@@ -1,0 +1,59 @@
+
+
+/*Below are styles for the trips.html page*/
+#wrapper{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#card{
+	color:white;
+	background-color: rgba(211,211,211,0.4);
+	display: inline-block;
+	border: solid 1px lightblue;
+	width: 20%;
+	margin-right: 2%;
+	margin-bottom: 4%;
+}
+
+.section1 > h3{
+	border: dotted 1px #ccc;
+	text-align: center;
+}
+
+.image{
+	margin-left: 25%;
+	height: 100px;
+	width: 100px;
+
+}
+p{
+	padding: 2%;
+	text-align: justify;
+}
+h4.avail{
+	background-color: gray;
+	color: yellow;
+	padding: 2%;
+}
+
+li{
+	list-style-type: none;
+}
+
+input[type="date"]{
+	text-align: center;
+	margin-left: 20%;
+	margin-bottom: 10px;
+}
+div.section2{
+	margin-left: 30%;
+	text-align: center;
+	
+
+}
+button{
+	margin-left: 30%;
+	margin-bottom: 15px;
+}
+
