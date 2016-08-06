@@ -57,7 +57,7 @@
 }
 
 .h_content {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -66,8 +66,8 @@
 }
 
 .h_img_styling {
-    width: 250px;
-    height: 125px;
+    width: 275px;
+    height: 200px;
     box-shadow: 0 10px 6px -6px #777;
     cursor: pointer;
 }
@@ -112,6 +112,10 @@
 .h_div {
   animation-duration: 1s;
   animation-name: bounceIn;
+}
+
+.h_h1 {
+  margin: 0 0 1em 0;
 }
 
 /*Rotate images*/
@@ -183,7 +187,7 @@
     left:0;
     width: 100%;
     height: 131px;
-    z-index: -1; /*This makes the gif go behind any element on the page*/
+    z-index: +1; /*This makes the gif go infront of any element on the page*/
     background-image: url(img/rocket.gif);
     background-position: 0px;
     background-repeat: repeat-y;
