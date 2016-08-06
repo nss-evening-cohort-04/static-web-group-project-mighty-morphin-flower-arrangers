@@ -27,7 +27,7 @@
 	width: 100px;
 
 }
-p{
+p.price{
 	padding: 2%;
 	text-align: justify;
 }
@@ -53,7 +53,7 @@ div.section2{
 
 }
 button{
-	margin-left: 30%;
+	margin-left: 25%;
 	margin-bottom: 15px;
 }
 

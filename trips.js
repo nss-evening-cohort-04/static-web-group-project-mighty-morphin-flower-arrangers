@@ -70,7 +70,7 @@ for (var i = 0; i < trips.length; i++){
 		article.setAttributeNode(id);
 		article.innerHTML="<div class='section1'><h3>"+trips[i].description+"</h3>"
 		+"<section><img class='image' alt='moon' align='middle' src='"+trips[i].URL+"'/></div>"
-		+"<div class='section2'><section><p>"+trips[i].price+"</p></section></div>"
+		+"<div class='section2'><section><p class='price'>"+trips[i].price+"</p></section></div>"
 		+"<div class='section3'><section><input type='date' name='dates' min='2016-08-05' max='2016-08-31'/></section>"
 		+"<button type='button'>Book Trip</button></div>";
 
