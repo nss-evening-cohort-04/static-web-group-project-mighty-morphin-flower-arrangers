@@ -62,7 +62,7 @@
 }
 
 .h_content {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -71,8 +71,8 @@
 }
 
 .h_img_styling {
-    width: 250px;
-    height: 125px;
+    width: 275px;
+    height: 200px;
     box-shadow: 0 10px 6px -6px #777;
     cursor: pointer;
 }
@@ -117,6 +117,10 @@
 .h_div {
   animation-duration: 1s;
   animation-name: bounceIn;
+}
+
+.h_h1 {
+  margin: 0 0 1em 0;
 }
 
 /*Rotate images*/
@@ -188,7 +192,7 @@
     left:0;
     width: 100%;
     height: 131px;
-    z-index: -1; /*This makes the gif go behind any element on the page*/
+    z-index: +1; /*This makes the gif go infront of any element on the page*/
     background-image: url(img/rocket.gif);
     background-position: 0px;
     background-repeat: repeat-y;
@@ -224,7 +228,7 @@ body {
 	background:#e2e2e2;
 }
 
-header {  
+header {
   background: #3f508c;
   color: white;
   text-align: right;
@@ -232,7 +236,7 @@ header {
 }
 
 .logo {
-  font-family: SF-Technodelight;	
+  font-family: SF-Technodelight;
   font-size: 2.8em;
   padding-right:30px;
 }
@@ -295,7 +299,7 @@ button {
   margin-top: 5px;
 }
 
-.about {	
+.about {
   width: 75%;
   background-color: #c9c9c9;
   padding: 30px 75px 50px 75px;
@@ -305,7 +309,7 @@ button {
   font-size:.9em;
 }
 
-.about p {	
+.about p {
   margin:10px;
 }
 
