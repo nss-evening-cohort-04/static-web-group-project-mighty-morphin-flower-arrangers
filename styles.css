@@ -308,3 +308,13 @@ button {
   margin:10px;
 }
 
+.contact {
+  padding: 30px;
+}
+
+nav a:hover {
+  text-decoration:none;
+  padding:10px 50px;
+  color: #3f508c;
+}
+
