@@ -318,3 +318,20 @@ nav a:hover {
   color: #3f508c;
 }
 
+.title {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 1.7em;
+}
+
