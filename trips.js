@@ -1,50 +1,50 @@
 //create an array that holds an object containing trip info
 var trips = [
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fhloston",
+	"description": "Winter trip to Fhloston Paradise",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Winter trip to Gallifrey",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fhloston",
+	"description": "Spring trip to Fhloston Paradise",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Spring trip to Gallifrey",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Summer trip to Gallifrey",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fhloston",
+	"description": "Summer trip to Fhloston ",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fholston",
+	"description": "Autumn trip to Fhloston ",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Autumn trip to Gallifrey",
 	"price": "$250,000",
 	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
 }
