@@ -35,7 +35,7 @@ function slideFunction() {
    images = new Array();
    images[0]="space5.jpg"
    images[1]="img1.jpg"
-   images[2]="img2.jpg"
+   images[2]="img7.jpg"
    images[3]="img3.jpg"
    images[4]="img4.jpg"
    images[5]="img5.jpg"
