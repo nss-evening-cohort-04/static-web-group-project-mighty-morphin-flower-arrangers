@@ -1,52 +1,60 @@
 //create an array that holds an object containing trip info
 var trips = [
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fhloston",
+	"description": "Winter trip to Fhloston Paradise",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "January 1, 2017",
+	"URL": "img/moon.jpg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Winter trip to Gallifrey",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "December 1, 2017",
+	"URL": "img/Gallifrey.jpg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fhloston",
+	"description": "Spring trip to Fhloston Paradise",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "April 1, 2017",
+	"URL": "img/moon.jpg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Spring trip to Gallifrey",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "March 1, 2017",
+	"URL": "img/Gallifrey.jpg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Summer trip to Gallifrey",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "July 1, 2017",
+	"URL": "img/Gallifrey.jpg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fhloston",
+	"description": "Summer trip to Fhloston ",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "June 1, 2017",
+	"URL": "img/moon.jpg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Fholston",
+	"description": "Autumn trip to Fhloston ",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "October 1, 2017",
+	"URL": "img/moon.jpg"
 },
 {
-	"name":"Moon",
-	"description": "take a trip to the moon",
+	"name":"Gallifrey",
+	"description": "Autumn trip to Gallifrey",
 	"price": "$250,000",
-	"URL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYYR2f2yQXQZmqMirjEHyNaCDqwEPTO2oHi6fGon3zwq5t3V5OUg"
+	"date": "September 1, 2017",
+	"URL": "img/Gallifrey.jpg"
 }
 ];
 
@@ -71,7 +79,7 @@ for (var i = 0; i < trips.length; i++){
 		article.innerHTML="<div class='section1'><h3>"+trips[i].description+"</h3>"
 		+"<section><img class='image' alt='moon' align='middle' src='"+trips[i].URL+"'/></div>"
 		+"<div class='section2'><section><p class='price'>"+trips[i].price+"</p></section></div>"
-		+"<div class='section3'><section><input type='date' name='dates' min='2016-08-05' max='2016-08-31'/></section>"
+		+"<div class='section3'><section><p class='date'>"+trips[i].date+"</p></section>"
 		+"<button type='button'>Book Trip</button></div>";
 
 	
